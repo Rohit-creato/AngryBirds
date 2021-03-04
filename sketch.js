@@ -22,6 +22,7 @@ function setup(){
     box1 = new Box(700,320,70,70);
     box2 = new Box(920,320,70,70);
     pig1 = new Pig(810, 350);
+    pig4 = new Pig(780,200);
     log1 = new Log(810,260,300, PI/2);
 
     box3 = new Box(700,240,70,70);
@@ -53,6 +54,7 @@ function draw(){
     box3.display();
     box4.display();
     pig3.display();
+    pig4.display();
     log3.display();
 
     box5.display();
